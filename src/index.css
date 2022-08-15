@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.button {
+		@apply appearance-none outline-none border-none cursor-pointer block py-2 px-4 bg-cyan-500 hover:bg-blue-500 ease-in duration-300 bg-cover text-sm text-black font-bold uppercase rounded-md;
+	}
+	.type {
+		@apply first-of-type:mr-2 last-of-type:mr-0;
+	}
+}
