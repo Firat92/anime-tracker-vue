@@ -79,7 +79,7 @@ const ResetAll = () => {
 </script>
 
 <template>
-	<body class="bg-white m-0 p-0 box-border font-sans">
+	<body class="bg-slate-100 m-0 p-0 box-border font-sans">
 		<main class="my-0 mx-auto max-w-3xl p-6">
 			<h1 class="text-center mb-6">Anime Tracker</h1>
 
@@ -125,7 +125,7 @@ const ResetAll = () => {
 
 			<div class="myanime" v-if="my_anime.length > 0">
 				<h2
-					class="bg-slate-50 font-normal mb-6 flex items-center justify-center"
+					class="bg-slate-100 font-normal mb-6 flex items-center justify-center"
 					>My anime</h2
 				>
 
